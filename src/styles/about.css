@@ -5,6 +5,8 @@
     display: flex;
   }
   .col {
+    flex: 1;
+
     &:first-child {
       padding-right: 3.125rem;
     }
