@@ -1,3 +1,10 @@
 :root {
   --primary-color: #FFD336;
+  --secondary-color: #A5E0E9;
+  --alt-secondary-color: #CEABD3;
+  --font-color: #000000;
+  --secondary-font-color: #ffffff;
+  --alt-font-color: #727272;
+  --font-bg-color: #EAE6E0;
+  --hero-bg-color: #E5E5E5;
 }

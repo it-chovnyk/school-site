@@ -1,0 +1,58 @@
+.hero {
+  padding: 7.5rem 0;
+  background-color: var(--hero-bg-color);
+
+  .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 42rem;
+    background: url('../../assets/hero-bg.jpg') center/cover no-repeat;
+  }
+
+  &_heading {
+    flex: 1;
+    color: var(--secondary-font-color);
+    font-size: 9.4375rem;
+    font-weight: 400;
+    text-align: center;
+
+    span {
+      display: block;
+      max-width: 34.375rem;
+      margin: 0 auto;
+      font-size: 1.125rem;
+      line-height: 2rem;
+    }
+  }
+  &_it {
+    position: absolute;
+    left: 2.5rem;
+    bottom: -1.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.5rem;
+    height: 6.5rem;
+    background-color: var(--primary-color);
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: -8.75rem;
+      left: -8.75rem;
+      width: 8.75rem;
+      height: 8.75rem;
+      background-color: var(--secondary-color);
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -2.5rem;
+      left: -2.5rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      background-color: var(--alt-secondary-color);
+    }
+  }
+}

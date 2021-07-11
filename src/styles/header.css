@@ -1,0 +1,60 @@
+.header {
+  position: absolute;
+  top: 3.625rem;
+  left: 0;
+  right: 0;
+
+  .container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  &-disclaimer {
+    position: absolute;
+    top: 0.3125rem;
+    right: 8.1875rem;
+    max-width: 13rem;
+    margin: 0;
+    font-size: 0.625rem;
+    line-height: 1.4;
+  }
+}
+.nav {
+  margin-right: auto;
+
+  &-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &__item {
+
+      a {
+        color: var(--font-color);
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      + .nav-list__item {
+        margin-left: 1.875rem;
+      }
+    }
+  }
+}
+.chovnyk-logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6.5rem;
+  height: 6.5rem;
+  background-color: var(--primary-color);
+}

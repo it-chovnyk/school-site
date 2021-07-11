@@ -21,31 +21,38 @@
   <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-  
-  <header>
-    <nav>
-      <ul>
-        <li>
-          <a href="#about">О селе</a>
-        </li>
-        <li>
-          <a href="#stories">Истории</a>
-        </li>
-      </ul>
-    </nav>
-    <p>
-      проект создан школьниками села Кубей, совместно с фондом «Човник»
-    </p>
-    <a href="#">
-      <img src="../assets/chovnyk-logo.svg" alt="Човник">
-    </a>
+
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <a href="#about">О селе</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#stories">Истории</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="header-disclaimer">
+        проект создан школьниками села Кубей, совместно с фондом «Човник»
+      </p>
+      <a class="chovnyk-logo" href="#">
+        <img src="../assets/chovnyk-logo.svg" alt="Човник">
+      </a>
+    </div>
   </header>
   <main>
     <section class="hero">
-      <h1>
-        Кубей
-        <span>село Болградского района Одесской области Украины, основанное в 1809 году.</span>
-      </h1>
+      <div class="container">
+        <h1 class="hero_heading">
+          Кубей
+          <span>село Болградского района Одесской области Украины, основанное в 1809 году.</span>
+        </h1>
+        <div class="hero_it">
+          <img src="../assets/it-icon.svg" alt="">
+        </div>
+      </div>
     </section>
     <section id="about" class="about">
       <div class="col">

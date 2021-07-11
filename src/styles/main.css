@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Ki-Medium";
+  src:
+    url('../../assets/fonts/KiMedium/font.woff2') format('woff2'),
+    url('../../assets/fonts/KiMedium/font.woff') format('woff');
+}
+:root {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
 body {
-  font-family: 'Kelly Slab', cursive;
+  font-family: "Ki-Medium", sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
 }
