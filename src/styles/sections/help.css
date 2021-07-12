@@ -1,0 +1,23 @@
+.help {
+  padding: 4.375rem 0;
+  color: var(--secondary-font-color);
+  min-height: 56.875rem;
+  background: var(--hero-bg-color) url('../../../assets/help-bg.jpg') center/cover no-repeat;
+  box-sizing: border-box;
+
+  &-content {
+    max-width: 26.5625rem;
+  }
+  &-heading {
+    margin: 0;
+    font-size: 3.75rem;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  &-text {
+    margin: 2.5rem 0;
+    font-size: 1.1875rem;
+    line-height: 1.5;
+  }
+}

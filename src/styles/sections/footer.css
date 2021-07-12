@@ -1,0 +1,8 @@
+.footer {
+  margin-top: -5.625rem;
+  overflow: hidden;
+}
+.copy {
+  color: var(--secondary-font-color);
+  line-height: 1.2;
+}
