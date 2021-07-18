@@ -3,15 +3,31 @@
 
   .container {
     display: flex;
+
+    @media (--phone) {
+      flex-wrap: wrap;
+    }
   }
   .col {
     flex: 1;
 
     &:first-child {
       padding-right: 3.125rem;
+
+      @media (--phone) {
+        padding-right: 0;
+      }
     }
     &:last-child {
       padding-left: 3.125rem;
+
+      @media (--phone) {
+        padding-left: 0;
+      }
+    }
+
+    @media (--phone) {
+      flex-basis: 100%;
     }
   }
   &-heading {
@@ -20,6 +36,10 @@
     line-height: 1.281;
     font-weight: 400;
     text-transform: uppercase;
+
+    @media(--phone) {
+      font-size: 4.4375rem;
+    }
   }
   &-img {
     margin-top: 0.625rem;

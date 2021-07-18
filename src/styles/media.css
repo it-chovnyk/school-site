@@ -1,1 +1,8 @@
-@custom-media --phone (max-width: 40em);
+/* 992px */
+@custom-media --tablet (max-width: 62em);
+/* 768px */
+@custom-media --phone (max-width: 48em);
+/* 576px */
+@custom-media --sm-phone (max-width: 36em);
+/* 460px */
+@custom-media --xs-phone (max-width: 28.75em);

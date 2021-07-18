@@ -17,6 +17,10 @@
     font-weight: 400;
     text-align: center;
 
+    @media(--xs-phone) {
+      font-size: 6.4375rem;
+    }
+
     span {
       display: block;
       max-width: 34.375rem;

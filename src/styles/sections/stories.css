@@ -7,6 +7,10 @@
     font-weight: 400;
     text-transform: uppercase;
     border-bottom: 0.1875rem solid;
+
+    @media(--phone) {
+      font-size: 4.4375rem;
+    }
   }
   &-subheading {
     font-size: 1.25rem;
@@ -16,11 +20,24 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 3.125rem;
+
+    @media(--phone) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media(--sm-phone) {
+      grid-template-columns: 1fr;
+    }
     
     &__item {
       margin-bottom: 3.125rem;
       padding: 1.25rem 1.125rem;
       transition: background-color var(--transition-duration);
+
+      @media(--sm-phone) {
+        width: 18.75rem;
+        margin-right: auto;
+        margin-left: auto;
+      }
 
       &:hover {
         background-color: var(--primary-color);

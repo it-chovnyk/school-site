@@ -5,6 +5,12 @@
   background: var(--hero-bg-color) url('../../../assets/help-bg.jpg') center/cover no-repeat;
   box-sizing: border-box;
 
+  @media (--phone) {
+    min-height: auto;
+    padding-bottom: 9.375rem;
+    background-position: right center;
+  }
+
   &-content {
     max-width: 26.5625rem;
   }
@@ -14,6 +20,10 @@
     line-height: 1.2;
     font-weight: 400;
     text-transform: uppercase;
+
+    @media(--phone) {
+      font-size: 3.4375rem;
+    }
   }
   &-text {
     margin: 2.5rem 0;

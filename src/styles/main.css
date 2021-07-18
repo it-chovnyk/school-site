@@ -7,6 +7,10 @@
 :root {
   font-size: 16px;
   scroll-behavior: smooth;
+
+  @media (--xs-phone) {
+    font-size: 13px;
+  }
 }
 body {
   color: var(--font-color);
@@ -20,6 +24,8 @@ img {
   width: 100%;
   max-width: 75rem;
   margin: 0 auto;
+  padding: 0 0.9375rem;
+  box-sizing: border-box;
 }
 .button {
   display: inline-block;
