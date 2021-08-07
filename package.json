@@ -2,10 +2,10 @@
   "name": "chovnyk",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/index.html",
+  "main": "./dist/**.html",
   "scripts": {
-    "start": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html",
+    "start": "parcel serve ./src/**.html",
+    "build": "parcel build ./src/**.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "web4uvak",
@@ -13,7 +13,8 @@
   "devDependencies": {
     "parcel": "^2.0.0-beta.3.1",
     "postcss-custom-media": "^8.0.0",
-    "postcss-nested": "^5.0.5"
+    "postcss-nested": "^5.0.5",
+    "posthtml-include": "^1.7.1"
   },
   "dependencies": {
     "normalize.css": "^8.0.1"

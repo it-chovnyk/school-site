@@ -46,4 +46,8 @@ img {
   &:hover {
     border-color: var(--font-color);
   }
+
+  &-link {
+    background-color: transparent;
+  }
 }

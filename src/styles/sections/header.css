@@ -20,12 +20,16 @@
     font-size: 0.625rem;
     line-height: 1.4;
   }
+
+  @media (--phone) {
+    top: 3rem;
+  }
 }
 .nav {
   position: relative;
   margin-right: auto;
 
-  @media (--xs-phone) {
+  @media (--phone) {
     width: 100%;
   }
 
@@ -35,7 +39,7 @@
     padding: 0;
     list-style: none;
 
-    @media (--xs-phone) {
+    @media (--phone) {
       position: absolute;
       top: 3.92rem;
       left: 0;
@@ -49,7 +53,7 @@
     
     &__item {
 
-      @media (--xs-phone) {
+      @media (--phone) {
         padding: 1.875rem;
         font-size: 1.5rem;
         text-transform: uppercase;
@@ -66,12 +70,12 @@
       + .nav-list__item {
         margin-left: 1.875rem;
         
-        @media (--xs-phone) {
+        @media (--phone) {
           margin-left: 0;
         }
       }
 
-      @media (--xs-phone) {
+      @media (--phone) {
         flex-basis: 100%;
       }
     }
@@ -93,7 +97,7 @@
         display: block;
       }
     }
-    @media (--sm-phone) {
+    @media (--phone) {
       display: block;
     }
   }
