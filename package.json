@@ -2,7 +2,6 @@
   "name": "chovnyk",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/**.html",
   "scripts": {
     "start": "parcel serve ./src/**.html",
     "build": "parcel build ./src/**.html",
