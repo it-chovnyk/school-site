@@ -20,6 +20,12 @@ img {
   display: block;
   max-width: 100%;
 }
+blockquote {
+  font-style: italic;
+  padding: 0.3125rem 0.9375rem 0.3125rem 1.875rem;
+  border-left: 0.125rem solid var(--alt-font-color);
+  background-color: var(--default-button-bg-color);
+}
 .container {
   width: 100%;
   max-width: 75rem;

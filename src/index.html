@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <include src="head.html"></include>
+  <include src="partials/head.html"></include>
 </head>
 <body>
 
@@ -64,54 +64,46 @@
         <p class="stories-subheading">Здесь мы расскажем вам о том, чем живем сегодня. </p>
         <div class="stories-list">
           <article class="stories-list__item">
-            <!-- <img src="../assets/stories/story-1.jpg" alt=""> -->
-            <h3>Культурное наследие</h3>
-            <p>Традиции и местный колорит</p>
+            <a href="story-1.html">
+              <img src="../assets/stories/thumb-story-1.jpg" alt="Александр Теодоров-Балан">
+              <h3>Путеводитель по селу</h3>
+              <p>5 поводов приехать в Кубей</p>
+            </a>
           </article>
           <article class="stories-list__item">
-            <!-- <img src="../assets/stories/story-2.jpg" alt=""> -->
-            <h3>Наши мечты</h3>
-            <p>О чем мечтают школьники села Кубей</p>
+            <a href="story-2.html">
+              <img src="../assets/stories/thumb-story-2.jpg" alt="Александр Теодоров-Балан">
+              <h3>Човник в Кубей</h3>
+              <p>Как мы провели время вместе и что успели сделать</p>
+            </a>
           </article>
           <article class="stories-list__item">
-            <!-- <img src="../assets/stories/story-3.jpg" alt=""> -->
-            <h3>Гид по Кубею</h3>
-            <p>5 поводов приехать в Кубей</p>
+            <a href="story-3.html">
+              <img src="../assets/stories/thumb-story-3.jpg" alt="Культурное наследие">
+              <h3>Культурное наследие</h3>
+              <p>Традиции и местный колорит</p>
+            </a>
           </article>
           <article class="stories-list__item">
-            <!-- <img src="../assets/stories/story-4.jpg" alt=""> -->
-            <h3>Как помочь?</h3>
-            <p>В какой помощи нуждается школа</p>
-          </article>
-          <article class="stories-list__item">
-            <!-- <img src="../assets/stories/story-5.jpg" alt=""> -->
-            <h3>Яркие лица</h3>
-            <p>Люди, которые запомнятся навсегда</p>
-          </article>
-          <article class="stories-list__item">
-            <!-- <img src="../assets/stories/story-6.jpg" alt=""> -->
-            <h3>Човник в Кубей</h3>
-            <p>Как мы провели время вместе и что успели сделать</p>
+            <a href="story-4.html">
+              <img src="../assets/stories/thumb-story-4.jpg" alt="Дети села Кубей">
+              <h3>Наши мечты</h3>
+              <p>О чем мечтают дети села Кубей</p>
+            </a>
           </article>
         </div>
       </div>
     </section>
     <section class="help">
-      <div class="container">
+      <!-- <div class="container">
         <div class="help-content">
           <h2 class="help-heading">Как помочь школьникам села Кубей</h2>
           <p class="help-text">переходи на сайт благотворительного фонда «Човник», где по завершению поездки мы  описали всю необходимую школе помощь, к которой ты можешь присоединиться</p>
           <a class="button" href="#" disabled>Помочь детям →</a>
         </div>
-      </div>
+      </div> -->
     </section>
   </main>
-  <footer class="footer">
-    <div class="container">
-      <p class="copy">&copy; 2021 Жители села Кубей при помощи "Човник"</p>
-    </div>
-  </footer>
-
-  <script src="scripts/index.js"></script>
+  <include src="partials/main-footer.html"></include>
 </body>
 </html>

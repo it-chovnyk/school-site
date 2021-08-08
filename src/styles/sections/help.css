@@ -1,7 +1,7 @@
 .help {
   padding: 4.375rem 0;
   color: var(--secondary-font-color);
-  min-height: 56.875rem;
+  /* min-height: 56.875rem; */
   background: var(--hero-bg-color) url('../../../assets/help-bg.jpg') center/cover no-repeat;
   box-sizing: border-box;
 
