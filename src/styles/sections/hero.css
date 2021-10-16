@@ -7,13 +7,13 @@
     display: flex;
     align-items: center;
     min-height: 42rem;
-    background: url('../../../assets/hero-bg.jpg') center/cover no-repeat;
+    background: url('../../../assets/sarata/for_main_page.jpeg') center/cover no-repeat;
   }
 
   &_heading {
     flex: 1;
     color: var(--secondary-font-color);
-    font-size: 9.4375rem;
+    font-size: 6.4375rem;
     font-weight: 400;
     text-align: center;
 
