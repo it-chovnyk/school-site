@@ -1,11 +1,5 @@
 .stories {
 
-img {
-  width: 314px;
-  height: 218px;
-  object-fit: cover;
-}
-
   &-heading {
     margin: 0;
     font-size: 6.4375rem;
