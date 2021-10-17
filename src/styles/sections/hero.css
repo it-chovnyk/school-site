@@ -17,8 +17,8 @@
     font-weight: 400;
     text-align: center;
 
-    @media(--xs-phone) {
-      font-size: 6.4375rem;
+    @media(--tablet) {
+      word-break: break-all;
     }
 
     span {
