@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     min-height: 42rem;
-    background: url('../../../assets/sarata/for_main_page.jpeg') center/cover no-repeat;
+    background: url('../../../assets/sarata/for_main_page.jpg') center/cover no-repeat;
   }
 
   &_heading {
